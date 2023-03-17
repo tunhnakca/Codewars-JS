@@ -8,6 +8,8 @@ function isPangram(string) {
   });
 }
 
+//---------------------------------------------------------------------
+
 /*
 // Other simplest form
 function isPangram(string) {
@@ -15,6 +17,8 @@ function isPangram(string) {
     .split('')
     .every(x => string.toLowerCase().includes(x));
 }
+
+//---------------------------------------------------------------------
 
 //More complex form with different perspective
 function isPangram(string) {

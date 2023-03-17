@@ -5,3 +5,4 @@ String.prototype.toJadenCase = function () {
     .map(mov => mov.replace(mov[0], mov[0].toUpperCase()))
     .join(' ');
 };
+

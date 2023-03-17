@@ -6,3 +6,4 @@ function reverseWords(str) {
     .map(mov => mov.split('').reverse().join(''))
     .join(' ');
 }
+

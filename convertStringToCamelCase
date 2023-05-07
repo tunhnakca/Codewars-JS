@@ -1,0 +1,15 @@
+function toCamelCase(str) {
+  let firstLetter;
+  if (str) {
+    firstLetter = str[0];
+  } else {
+    // for the empty values
+    return '';
+  }
+  const word = str
+    .split(/[-_]/g)
+    .map(cur => cur.replace(cur[0], cur[0].toUpperCase()))
+    .join('');
+
+  return word.replace(word[0], firstLetter);
+}
